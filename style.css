@@ -1,0 +1,47 @@
+header ul {
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+main {
+    background-image: radial-gradient(circle at top right, white, cornflowerblue);
+    padding: 10px;
+}
+
+main .slider {
+    text-align: center;
+}
+
+main .image {
+    width: 10%;
+    float: left;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+p {
+    text-align: justify;
+    column-count: 4;
+    column-rule: 3px solid black;
+    padding-right: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
